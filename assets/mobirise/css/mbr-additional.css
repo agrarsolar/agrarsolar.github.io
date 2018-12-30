@@ -1279,13 +1279,13 @@ html,body{
 }@isPublish: true;
 
 .cid-qTkzRZLJNu {
-@showLogo: true;
-@logoSize: 5.4;
+@showLogo: false;
+@logoSize: 3.9;
 @showBrand: false;
-@showItems: true;
+@showItems: false;
 @itemsHoverColor: #232323;
 @showButtons: true;
-@sticky: true;
+@sticky: false;
 @collapsed: false;
 @transparent: true;
 @hamburgerColor: #ff3366;
