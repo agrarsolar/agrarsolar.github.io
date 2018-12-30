@@ -1687,8 +1687,8 @@ nav.opened .hamburger span {
 }
 
 .cid-qTkA127IK8 {
-@fullScreen: false;
-@paddingTop: 9;
+@fullScreen: true;
+@paddingTop: 1;
 @paddingBottom: 0;
 @showArrow: true;
 @showTitle: true;
