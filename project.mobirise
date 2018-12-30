@@ -83,7 +83,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/itato-napelemmel-948x639.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/itato-napelemmel-1-948x639.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff8e0",
