@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 #ext_menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -6,4 +8,13 @@
 }
 #ext_menu-0 .mbr-navbar__hamburger {
   color: #ffffff;
+}
+#header1-2 H1 {
+  color: #475577;
+  font-size: 60px;
+}
+#header1-2 P {
+  color: #fac51c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
 }

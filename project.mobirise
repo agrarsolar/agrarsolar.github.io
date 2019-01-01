@@ -5,7 +5,8 @@
     "theme": {
       "name": "default",
       "title": "Mobirise",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
@@ -30,7 +31,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "showButtons": true,
+            "showButtons": false,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
@@ -78,12 +79,12 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "showArrow": true,
-            "contentAlign": "right",
+            "contentAlign": "center",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/itato-napelemmel-948x581.png",
-            "parallax": true,
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
             "bgVideoRadio": false,
@@ -94,14 +95,26 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "FULL-SCREEN HEADER",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "title": "SZIVATTYÚZÁS NAPELEMMEL<br><br>",
+          "text": "itató, dagonya, tótöltés, öntözés<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Téma"
           ],
           "_name": "header1",
-          "_anchor": "header1-2"
+          "_anchor": "header1-2",
+          "_styles": {
+            "H1": {
+              "color": "#475577",
+              "font-size": "60px"
+            },
+            "P": {
+              "color": "#fac51c",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "46px"
+            }
+          }
         },
         {
           "_inherit": "header1",
