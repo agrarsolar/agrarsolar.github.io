@@ -1798,44 +1798,20 @@ body {
 .cid-rdYUmwDLmi .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rdYUpP0KQr {
-  padding-top: 30px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+.cid-rf6LyXSZLE {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f9f295;
 }
-.cid-rdYUpP0KQr .counter-container {
+.cid-rf6LyXSZLE .mbr-text,
+.cid-rf6LyXSZLE blockquote {
   color: #767676;
 }
-.cid-rdYUpP0KQr .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
+.cid-rf6LyXSZLE .mbr-text P {
+  color: #232323;
 }
-.cid-rdYUpP0KQr .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-rdYUpP0KQr .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-rdYUpP0KQr .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.cid-rdYUpP0KQr .mbr-text {
-  text-align: left;
+.cid-rf6LyXSZLE .mbr-text DIV {
+  color: #232323;
 }
 .cid-rdYUFmJR8Y {
   padding-top: 45px;
