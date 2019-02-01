@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 86,
+    "uniqCompNum": 87,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -829,7 +829,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/itato-948x581.png",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -848,7 +848,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/20150616-123808-2000x1500.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -1091,6 +1091,21 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Háttérszín\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"assets/files/webarlista_szin.xls\" data-app-placeholder=\"Type Text\">TUDJ MEG TÖBBET</a>\n                    <a class=\"btn btn-black-outline\" href=\"assets/files/webarlista_szin.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">ÉLŐ BEMUTATÓ</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rgPE0qcvyr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-2e"
         },
         {
           "_styles": {
