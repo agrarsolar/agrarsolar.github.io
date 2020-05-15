@@ -4030,15 +4030,6 @@ body {
 .cid-reyaiwZufQ .mbr-text P {
   color: #232323;
 }
-.cid-reyanq3Xon {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-reyanq3Xon .mbr-text,
-.cid-reyanq3Xon blockquote {
-  color: #767676;
-}
 .cid-re05Xcq3b9 {
   padding-top: 90px;
   padding-bottom: 0px;
@@ -5128,7 +5119,7 @@ body {
   text-align: center;
 }
 .cid-rhet5hx9GS {
-  padding-top: 15px;
+  padding-top: 120px;
   padding-bottom: 15px;
   background-color: #55b4d4;
   background: linear-gradient(45deg, #55b4d4, #cebfaf);
@@ -6438,7 +6429,7 @@ body {
   color: #ff3366 !important;
 }
 .cid-rVtSt8T4u2 {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -8660,6 +8651,64 @@ body {
 }
 .cid-rVuV4z5DWj .body-item {
   color: #000000;
+}
+.cid-rYBB1EcSkX {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f9f295;
+}
+.cid-rYBB1EcSkX .title {
+  padding-bottom: 2.5rem;
+}
+.cid-rYBB1EcSkX h4 {
+  width: 85%;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.cid-rYBB1EcSkX .bottom-line p {
+  color: #767676;
+}
+.cid-rYBB1EcSkX .card-wrapper {
+  background-color: #ffffff;
+  background-color: transparent;
+  position: relative;
+  justify-content: unset;
+}
+.cid-rYBB1EcSkX .card-wrapper .card-box {
+  width: 100%;
+}
+.cid-rYBB1EcSkX .card-wrapper .card-box .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cid-rYBB1EcSkX .card-wrapper .card-box .wrapper .top-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cid-rYBB1EcSkX .card-wrapper .card-box .wrapper .bottom-line {
+  width: 85%;
+}
+@media (max-width: 767px) {
+  .cid-rYBB1EcSkX .card-wrapper .card-box .wrapper .bottom-line {
+    width: 100%;
+  }
+  .cid-rYBB1EcSkX .card-wrapper .card-box .wrapper .bottom-line p {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rYBB1EcSkX .card.pb-5 {
+    padding-bottom: 2rem !important;
+  }
+  .cid-rYBB1EcSkX .wrapper {
+    padding-top: 1rem;
+  }
 }
 .cid-rdYU0m1PHJ .navbar {
   padding: .5rem 0;
